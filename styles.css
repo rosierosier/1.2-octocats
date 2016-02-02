@@ -2,32 +2,72 @@ img {
   max-width: 100%;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.octodex {
+  position: absolute;
+  padding: 10px;
+}
+
 .octocat {
   float: left;
   width: 30%;
-  box-sizing: border-box;
-  border: 1px solid grey;
-  margin: 5px;
+  margin: 0 10px 0 0;
+  border-bottom: 1px solid grey;
 }
 
-.image-footer {
-  position:
-  float:
-  display: inline-block;
+.octocat img {
+  padding: 5px;
+  border: 1px solid grey;
 }
 
 .image-number {
-
+  float: left;
+  text-align: left;
+  padding-top: 10px;
 }
 
-.image-footer {
-
+.image-caption {
+  float: right;
+  display: inline;
+  margin: 0 0 10px 0;
 }
 
 .authors {
-
+  display: inline-block;
+  border: none;
+  margin: 5px 5px 0 0;
+  padding: 0;
 }
+
+.authors img {
+  width: 25px;
+  border: none;
+  display: inline;
+  border-radius: 5px;
+  overflow: auto;
+  padding: 0;
+  float: center;
+}
+
+/*.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: inline;
+  height: 0;
+  clear: both;
+}*/
 
 li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #cccccc;
+  text: bold;
 }
