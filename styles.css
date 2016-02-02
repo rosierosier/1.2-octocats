@@ -1,0 +1,33 @@
+img {
+  max-width: 100%;
+}
+
+.octocat {
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  margin: 5px;
+}
+
+.image-footer {
+  position:
+  float:
+  display: inline-block;
+}
+
+.image-number {
+
+}
+
+.image-footer {
+
+}
+
+.authors {
+
+}
+
+li {
+  list-style: none;
+}
